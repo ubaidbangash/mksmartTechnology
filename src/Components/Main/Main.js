@@ -10,7 +10,7 @@ const Main = () => {
     <>
       <div className="type">
       <div>
-    <h4 class = "para1">Code with purpose</h4>
+    <h4 class = "para1">Code with purpose !!!</h4>
         <Typewriter
         options={{
           strings: [
