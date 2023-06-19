@@ -1,0 +1,148 @@
+ .tech__portion {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.tech__portion p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ba3030;
+  margin-top: 2rem;
+}
+.tech__portion h4{
+	margin-top: 1rem;
+	color: #ba3030;
+	text-transform: uppercase;
+}
+.tech__portion img{
+	width: 100px;
+	height: 100px;
+	/* box-shadow:  0 0 10px #cccccc; */
+	padding: 10px;
+}
+
+.tech__portion img:hover {
+  transition: all 2s;
+  transform: translate(5px, 12px);
+} 
+
+
+
+
+/* h1,
+h1+p {
+	margin: 30px 15px 0;
+	font-weight: 300;
+}
+h1+p a {
+	color: #333;
+}
+h1+p a:hover {
+	text-decoration: none;
+}
+h2 {
+	margin: 60px 15px 0;
+	padding: 0;
+	font-weight: 300;
+}
+h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.site-heading p{
+	font-size: 1.9rem;
+	color: black;
+	font-weight: 700;
+}
+.site-heading span{
+	font-size: 1.9rem;
+	color: #ba3030;
+	font-weight: 700;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+.hover05 figure img {
+	margin-left: 30px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  width: 60px;
+  height: 60px;
+  margin-top: 2rem;
+  
+}
+.hover05 figure:hover img {
+	margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */

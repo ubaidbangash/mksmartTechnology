@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="643" height="364" viewBox="0 0 643 364">
+  <defs>
+    <filter id="Rectangle_2667" x="280.5" y="151.5" width="93" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_11372" x="393.045" y="36.401" width="92.5" height="120.418" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10054" data-name="Group 10054" transform="translate(-6172 -392)">
+    <path id="Path_11370" data-name="Path 11370" d="M856.913,322.627l50.465,40.082H976.2L868.15,270.623l-11.237,9.312Z" transform="translate(5660.309 299.289)" fill="#20232b"/>
+    <g transform="matrix(1, 0, 0, 1, 6172, 392)" filter="url(#Rectangle_2667)">
+      <rect id="Rectangle_2667-2" data-name="Rectangle 2667" width="48" height="57" transform="translate(297 174)" fill="#20232b"/>
+    </g>
+    <rect id="Rectangle_2666" data-name="Rectangle 2666" width="48.413" height="269.998" transform="translate(6468.809 392)" fill="#20232b"/>
+    <text id="Smart_Technologies" data-name="Smart Technologies" transform="translate(6172 741)" fill="#e5001c" font-size="66" font-family="HazeerCello, Hazeer Cello"><tspan x="0" y="0">Smart</tspan><tspan y="0" xml:space="preserve" fill="#20232b"> Technologies</tspan></text>
+    <path id="Path_11371" data-name="Path 11371" d="M927.237,220.035l.98,61.226,48.07,42.114L974.57,179.718Z" transform="translate(5660.309 299.289)" fill="#e5001c"/>
+    <g transform="matrix(1, 0, 0, 1, 6172, 392)" filter="url(#Path_11372)">
+      <path id="Path_11372-2" data-name="Path 11372" d="M963.807,146.583c-13.162-6.681-26.21,5.772-26.21,5.772s-4.018,3.46-10.36,8.93v58.746l47.328-40.313v-7.91S976.969,153.263,963.807,146.583Z" transform="translate(-511.69 -92.71)" fill="#e5001c"/>
+    </g>
+    <path id="Path_11373" data-name="Path 11373" d="M735.7,362.709H689.351V167.746s1.03-16.674,15.794-19.881,22.49,4.009,22.49,4.009L821.886,232.2s11.546,11.664,24.035,0S937.6,152.355,937.6,152.355s13.048-12.453,26.21-5.772,10.758,25.225,10.758,25.225v7.91L848.325,287.247s-8.3,8.765-16.281,8.123-13.677-5.211-17.6-8.871-77.713-67.126-77.713-67.126Z" transform="translate(5660.309 299.289)" fill="#e5001c"/>
+  </g>
+</svg>

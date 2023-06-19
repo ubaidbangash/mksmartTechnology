@@ -1,0 +1,126 @@
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 52px;
+  }
+  .block-social {
+    position: fixed;
+    right: 0;
+    top: 50px;
+    width: 45px;
+    z-index: 999;
+    margin-top: 5rem;
+  }
+  .block-social.on_left {
+    right: auto;
+    left: 0;
+  }
+  .block-social.on_left ul li a {
+    float: left;
+  }
+  .block-social.on_left ul li a > span {
+    position: relative;
+  }
+  .block-social.on_left ul li a > span i.fa {
+    float: left;
+  }
+  .block-social.on_left ul li a > span span.social-text {
+    position: absolute;
+    top: 0;
+    right: 43px;
+    width: auto;
+  }
+  .block-social ul {
+    padding: 0;
+  }
+  .block-social ul li {
+    display: block;
+  }
+  .block-social ul li a {
+    float: right;
+    margin-bottom: 2px;
+    border-radius: 5px 0 0 5px;
+  }
+  .block-social ul li a.facebook {
+     background: white; 
+    color: black;
+  }
+  .block-social ul li a.twitter {
+     background: white;
+  }
+  .block-social ul li a.google-plus {
+    background: white; 
+  }
+  .block-social ul li a.youtube {
+    background: #c4302b; 
+  }
+  .block-social ul li a.pinterest {
+     background: white ;
+  }
+  .block-social ul li a.mail-to {
+     background: white; 
+  }
+  .block-social ul li a.instagram {
+     background: #9b6954; 
+  }
+  .block-social ul li a.tumblr {
+     background: #35465a; 
+  }
+  .block-social ul li a.linkedin {
+     background: #4875b4; 
+  }
+  .block-social ul li a.vimeo {
+     background: #86b32d; 
+  }
+  .block-social ul li a.behance {
+     background: #005cff; 
+  }
+  .block-social ul li a.dribbble {
+     background: #ec4a89; 
+  }
+  .block-social ul li a.rss {
+     background: #ffa500; 
+  }
+  .block-social ul li a.vk {
+     background: #45668e; 
+  }
+  .block-social ul li a > span {
+    color:black;
+    float: left;
+    white-space: nowrap;
+    font-size: 11px;
+    height: 43px;
+    line-height: 43px;
+    width: 43px;
+    transition: all 0.5s ease 0s;
+    overflow: hidden;
+  }
+  .block-social ul li a > span i.fa {
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+  }
+  .block-social ul li a > span i.fa:after {
+    content: "";
+    background: #fff;
+    height: 19px;
+    width: 1px;
+    position: absolute;
+    right: -1px;
+    top: 12px;
+  }
+  .block-social ul li a > span span.social-text {
+    height: 43px;
+    line-height: 43px;
+    float: left;
+    width: 0;
+  }
+  .block-social ul li a:hover > span {
+    width: 160px;
+  }
+  

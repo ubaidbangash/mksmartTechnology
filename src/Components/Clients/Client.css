@@ -1,0 +1,153 @@
+
+h1 {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 15px;
+  color: darkgrey;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 14px;
+  color: darkgrey;
+}
+
+.card {
+  
+  position: relative;
+  background-color: #FEFEFE;
+  width: 350px;
+  height: 200px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 10rem;
+  
+}
+
+.card:hover {
+  height: 450px;
+}
+
+.pb img {
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  /* background-image: url('https://cdn.pixabay.com/photo/2018/11/28/19/53/woman-3844370_960_720.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover .pb {
+  height: 250px;
+  width: 250px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 125px 0px 10px 0px;
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover .info {
+  display: flex;
+  padding: 230px 0px 10px 0px;
+}
+
+.detail {
+  position: relative;
+  display: flex;
+  opacity: 0;
+  z-index: -10;
+  justify-content: space-between;
+  padding: 10px 50px;
+  transform: translateX(-20px);
+  
+  transition-timing-function: linear;
+  transition-duration: 0s, 0.2s, 0.2s;
+  transition-property: z-index, opacity, transform;
+  transition-delay: 0.2s, 0s, 0s;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  opacity: 0;
+  z-index: -10;
+  padding: 10px 50px;
+  justify-content: space-between;
+  transform: translateX(-20px);
+  
+  transition-timing-function: linear;
+  transition-duration: 0s, 0.2s, 0.2s;
+  transition-property: z-index, opacity, transform;
+  transition-delay: 0.2s, 0s, 0s;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#follow {
+  background-color: #FF5F96;
+  border: 1px solid #FF5F96;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s linear;
+}
+
+#follow:hover {
+  background-color: #fa377b;
+}
+
+#message {
+  background-color: transparent;
+  border: 1px solid grey;
+  color: grey;
+  font-weight: 500;
+  transition: all 0.3s linear;
+}
+
+#message:hover {
+  background-color: darkgrey;
+  color: white;
+}
+
+.card:hover .detail,
+.card:hover .buttons {
+  opacity: 1;
+  z-index: 0;
+  transform: translateX(0px);
+  
+  transition-timing-function: linear;
+  transition-duration: 0s, 0.3s, 0.3s;
+  transition-property: z-index, opacity, transform;
+  transition-delay: 0s, 0.2s, 0.2s;
+}

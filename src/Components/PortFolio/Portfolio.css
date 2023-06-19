@@ -1,0 +1,17 @@
+
+.portfolio-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: -webkit-center;
+    background: darkgrey;
+   
+
+
+}
+.portfolio__hover:hover{
+    /* transform: scale(0.75); */
+    /* transform: rotate(7deg); */
+    transform: translate(5px,12px);
+    transition: all ease-in 2s;
+}

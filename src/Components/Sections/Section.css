@@ -1,0 +1,239 @@
+/* 
+.section-area {
+  background-image: url("../../assets/contact.jpg");
+  
+  opacity: 0.9;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  
+  
+}
+
+.section-area h2 {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 10rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+.home-desc {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+}
+.bg-pattern-effect img {
+  width: 100%;
+  height: 50px;
+  margin-top: 13rem;
+}
+.site-heading h2 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  color: black;
+}
+
+.site-heading h2 span {
+  color: #ba3030;
+  padding-left: 10px;
+}
+
+.site-heading h4 {
+  display: inline-block;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+  color: white;
+}
+
+.site-heading h4::before {
+  background: #ba3030;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+
+.site-heading {
+  margin-bottom: 60px;
+  overflow: hidden;
+  margin-top: -5px;
+} */
+
+
+
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+/* This resets any styles made by web browsers  */
+
+
+/* setting the font in the body is better than setting it in the reset above */
+/* Lato comes from google fonts and is included in the html */
+
+
+/* 95vh sets the background height to 95% of the viewport height */
+.header{
+  height: 95vh;
+  /* background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url('../../assets/contact.jpg'); */
+   background-image: linear-gradient(to right bottom, rgba(155, 40, 55, 0.8), rgba(155, 40, 55, 0.8)), url('../../assets/contact.jpg');
+ 
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0,100% 0,100% 75vh, 0 100%);
+  position: relative;
+}
+
+
+
+
+.text-box{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary{
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.heading-primary-main{
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  
+
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+
+}
+.heading-primary-sub{
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-size: 20px;
+
+  animation-name: moveInRight;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+
+}
+
+/* animations and keyframes for the header */
+/* primary sub animation */
+@keyframes moveInTop {
+  0% {
+      opacity: 0;
+      transform: translateY(-100px) rotate(160deg);
+  }
+  70%{
+      opacity: 1;
+      transform: translateY(100px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+/* primary main animation */
+
+@keyframes moveInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+  70%{
+      opacity: 1;
+      transform: translateX(10px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* primary sub animation */
+@keyframes moveInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(100px);
+  }
+  70%{
+      opacity: 1;
+      transform: translateX(-10px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #777;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px ;
+  transition: all .2s;
+  position: relative;
+}
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0, .2);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0,0,0, .2);
+
+}
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
+.btn::after{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+.btn-white::after{
+  background-color: #fff;
+}
+
+.btn:hover::after{
+  transform: scaleX(1.5) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated{
+  animation: moveInButton .5s ease-out .75s;
+  animation-fill-mode: backwards;
+
+}
